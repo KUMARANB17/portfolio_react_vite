@@ -120,7 +120,7 @@ function Content() {
         <div className='Home scroll-mt-24 mt-27' id='Home'>
         <div className="lg:block hidden lg:absolute lg:top-0 lg:right-0 lg:mt-25 lg:mr-5">
           <img
-            src="assets/ChatGPT Image Apr 4, 2025, 11_10_25 AM.png"
+            src="https://github.com/KUMARANB17/portfolio_react_vite/blob/main/src/assets/ChatGPT%20Image%20Apr%204%2C%202025%2C%2011_10_25%20AM.png"
             alt="Profile Image"
             className="rounded-full hover:border-4 hover:shadow-2xl hover:shadow-white hover:border-white w-150 h-150"
           />
