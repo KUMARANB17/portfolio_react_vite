@@ -2,7 +2,7 @@ import React from 'react'
 import Slider from 'react-slick'; 
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import profileimage from 'assets/ChatGPT Image Apr 4, 2025, 11_10_25 AM.png';
+import profileimage from '/assets/profile.png';
 import linkedin from '/assets/linkedin.png';
 import github from '/assets/github.png';
 import gmail from '/assets/gmail.png';
