@@ -3,6 +3,9 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import profileimage from 'assets/ChatGPT Image Apr 4, 2025, 11_10_25 AM.png';
+import linkedin from '/assets/linkedin.png';
+import github from '/assets/github.png';
+import gmail from '/assets/gmail.png';
 
 const data =[
     {name: `Expense Tracker`,
@@ -139,21 +142,21 @@ function Content() {
         </p>
             <div className='flex lg:mt-20 mt-10 lg:flex-row flex-col items-center'>
         <div className='flex flex-row align-middle'>
-            <img src="/assets/linkedin.png" className='h-10 w-10 mt-7 lg:ml-25 ml-5'/>
+            <img src= {linkedin} className='h-10 w-10 mt-7 lg:ml-25 ml-5'/>
         <a href="https://www.linkedin.com/in/kumaran-b-8b895a233/" className='text-white hover:text-blue-700 p-5 mt-4 text-xl'>
             Linkedin
         </a>
         </div>
 
         <div className='flex flex-row align-middle'>
-            <img src="/assets/github.png" className='h-10 w-10 mt-7 lg:ml-25 bg-white'/>
+            <img src={github} className='h-10 w-10 mt-7 lg:ml-25 bg-white'/>
         <a href="https://github.com/KUMARANB17" className='text-white hover:text-gray-400 p-5 mt-4 text-xl'>
             Github
         </a>
         </div>
         
         <div className='flex flex-row align-middle'>
-            <img src="/assets/gmail.png" className='h-10 w-10 mt-7 lg:ml-25'/>
+            <img src={gmail} className='h-10 w-10 mt-7 lg:ml-25'/>
         <a href="kumaran164b@gmail.com" className='text-white hover:text-green-700 p-5 mt-4 text-xl'>
             Gmail
         </a>
