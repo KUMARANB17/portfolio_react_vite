@@ -120,7 +120,7 @@ function Content() {
         <div className='Home scroll-mt-24 mt-27' id='Home'>
         <div className="lg:block hidden lg:absolute lg:top-0 lg:right-0 lg:mt-25 lg:mr-5">
           <img
-            src="src/assets/ChatGPT Image Apr 4, 2025, 11_10_25 AM.png"
+            src="assets/ChatGPT Image Apr 4, 2025, 11_10_25 AM.png"
             alt="Profile Image"
             className="rounded-full hover:border-4 hover:shadow-2xl hover:shadow-white hover:border-white w-150 h-150"
           />
@@ -138,21 +138,21 @@ function Content() {
         </p>
             <div className='flex lg:mt-20 mt-10 lg:flex-row flex-col items-center'>
         <div className='flex flex-row align-middle'>
-            <img src="./src/assets/linkedin.png" className='h-10 w-10 mt-7 lg:ml-25 ml-5'/>
+            <img src="/assets/linkedin.png" className='h-10 w-10 mt-7 lg:ml-25 ml-5'/>
         <a href="https://www.linkedin.com/in/kumaran-b-8b895a233/" className='text-white hover:text-blue-700 p-5 mt-4 text-xl'>
             Linkedin
         </a>
         </div>
 
         <div className='flex flex-row align-middle'>
-            <img src="./src/assets/github.png" className='h-10 w-10 mt-7 lg:ml-25 bg-white'/>
+            <img src="/assets/github.png" className='h-10 w-10 mt-7 lg:ml-25 bg-white'/>
         <a href="https://github.com/KUMARANB17" className='text-white hover:text-gray-400 p-5 mt-4 text-xl'>
             Github
         </a>
         </div>
         
         <div className='flex flex-row align-middle'>
-            <img src="./src/assets/gmail.png" className='h-10 w-10 mt-7 lg:ml-25'/>
+            <img src="/assets/gmail.png" className='h-10 w-10 mt-7 lg:ml-25'/>
         <a href="kumaran164b@gmail.com" className='text-white hover:text-green-700 p-5 mt-4 text-xl'>
             Gmail
         </a>
